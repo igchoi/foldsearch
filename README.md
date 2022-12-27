@@ -18,8 +18,7 @@ foldseek databases Alphafold/Proteome afdb tmp
 ## How to run the WebAPP
 * Clone this repository & run __django__ server. You can visit the server (http://127.0.0.1:8000/) with your browser (e.g. Chrome).
 ```
-git clone 
+git clone https://github.com/igchoi/foldsearch.git
 cd mysite
 python manage.py runserver
 ```
-
