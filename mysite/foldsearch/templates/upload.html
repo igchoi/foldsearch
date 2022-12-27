@@ -11,15 +11,15 @@
     <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
     <title>FoldSearch</title>
   </head>
-  <body align="center">
+  <body>
   <br>
   <div align="center"><h1>FoldSearch</h1></div>
   <br>
   <form action="foldsearch/" method="post" enctype="multipart/form-data">
-  {% csrf_token"}
+  {% csrf_token %}
   <div class="input-group mb-3" align="center" style="width: 50%; margin-left: 25%">
-  <input type="file" class="form-control" id="inputGroupFile" aria-label="Upload">
-  <button class="btn btn-dark" type="submit" id="inputGroupFile">Submit</button>
+  <input id="fileInput" name="fileInput" type="file" class="form-control">
+  <input class="btn btn-dark" type="submit" value="Submit">
   </div>
   </form>
   <!-- Optional JavaScript -->
