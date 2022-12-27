@@ -12,13 +12,18 @@ conda install -c conda-forge -c bioconda foldseek
 ```
 * Installing target DB as indicated in [__foldseek__](https://github.com/steineggerlab/foldseek). It took ~ 5 min.
 ```
-# alphafold db
+# go to your cloned 'mysite' directory
+cd foldsearch/mysite
+# install alphafold db remotely
 foldseek databases Alphafold/Proteome afdb tmp
 ```
-## How to run the WebAPP
+* now, you are ready to run __Foldsearch__
+
+## How to run __Foldsearch__
 * Clone this repository & run __django__ server. You can visit the server (http://127.0.0.1:8000/) with your browser (e.g. Chrome).
 ```
 git clone https://github.com/igchoi/foldsearch.git
 cd mysite
 python manage.py runserver
 ```
+* upload __test.pdb__ using __Foldsearch__ WebApp.
