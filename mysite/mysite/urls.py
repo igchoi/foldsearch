@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from mysite import views
 
 urlpatterns = [
+    path('', views.index, name="main"),
     path('foldsearch/', include('foldsearch.urls')),
     path('admin/', admin.site.urls),
 ]
