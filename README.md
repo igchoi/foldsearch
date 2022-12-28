@@ -25,7 +25,7 @@ cd mysite
 # install alphafold db remotely
 foldseek databases Alphafold/Proteome afdb tmp
 ```
-* Now, you are ready to run __Foldsearch__. Run __django__ server & visit the server (http://127.0.0.1:8000/) with your browser (e.g. Chrome).
+* Now, you are ready to run __Foldsearch__. Run __django__ server from repository __ROOT__ directory (e.g. folsearch/) & visit the server (http://127.0.0.1:8000/) with your browser (e.g. Chrome).
 ```
 python manage.py runserver
 ```
